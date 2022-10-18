@@ -1,0 +1,16 @@
+public class stringfunctions	 {
+    public static void main(String[] args) {   
+	
+		//                       equalsIgnoreCase() method
+		//   String equalsIgnoreCase() determines the equality of two Strings,
+		//   ignoring their case (upper or lower case doesn't matter with this method). returing true or false..
+	
+        String str = "java";
+		boolean s=str.equalsIgnoreCase("JAVA"); 
+      //  System.out.println(str.equalsIgnoreCase(s)); //false
+            System.out.println(s); //java
+			
+			
+
+	}
+}

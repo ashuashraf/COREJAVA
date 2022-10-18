@@ -1,0 +1,7 @@
+public class Demo {
+    public static void main(String[] args) {   
+        String str = "studytonight";
+		char index=str.charAt(11);
+        System.out.println(index);
+    }
+}
